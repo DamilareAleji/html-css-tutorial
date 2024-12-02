@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliver-Mimi-Rex</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        .image {
+            width: 65px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .container {
+            
+            display: flex;
+            width: 350px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            justify-content: space-between;
+        }
+
+        #firstcontainer {
+            margin-top: 20px;
+        }
+
+        .info {
+            display: flex;
+        }
+
+        .image-info {
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+
+        .follow-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: rgba(0, 0, 255, 0.712);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .cat-type, .popularity-stat {
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- ------Oliver information -->
+    <div class="container" id="firstcontainer">
+        <div class="info">
+            <div class="image">
+                <img src="../Images/pexels-pixabay-45201.jpg" alt="">
+            </div>
+            <div class="image-info">
+                <p class="name">Oliver</p>
+                <p class="cat-type">the cat</p>
+                <p class="popularity-stat">Popular</p>
+            </div>
+        </div>
+
+        <div class="follow-btn">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div class="container"></div>
+    <div class="container"></div>
+
+
+
+    <!-- ----------------Mimi Information---------- -->
+
+    <div class="container">
+        <div class="info">
+            <div class="image">
+                <img src="../Images/pexels-pixabay-45201.jpg" alt="">
+            </div>
+            <div class="image-info">
+                <p class="name">Mimi</p>
+                <p class="cat-type">Sleepy cat</p>
+                <p class="popularity-stat">Popular</p>
+            </div>
+        </div>
+
+        <div class="follow-btn">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div class="container"></div>
+    <div class="container"></div>
+
+
+    <!-- -------------Rex Information----------------- -->
+
+    <div class="container">
+        <div class="info">
+            <div class="image">
+                <img src="../Images/pexels-pixabay-45201.jpg" alt="">
+            </div>
+            <div class="image-info">
+                <p class="name">Rex</p>
+                <p class="cat-type">Happy Bulldog</p>
+                <p class="popularity-stat">Popular</p>
+            </div>
+        </div>
+
+        <div class="follow-btn">
+            <button>Follow</button>
+        </div>
+    </div>
+    <div class="container"></div>
+    <div class="container"></div>
+</body>
+</html>
